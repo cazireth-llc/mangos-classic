@@ -61,6 +61,7 @@ DatabaseType LoginDatabase;                                 ///< Accessor to the
 DatabaseType PlayerbotDatabase;                             ///< Accessor to the playerbot database
 
 uint32 realmID;                                             ///< Id of the realm
+std::string realmName;                                      ///< RealmName, will replace whatever is in the DB currently
 
 /// Launch the mangos server
 int main(int argc, char* argv[])

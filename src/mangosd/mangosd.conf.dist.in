@@ -11,6 +11,9 @@ ConfVersion=2021021901
 #    RealmID
 #        RealmID must match the realmlist inside the realmd database
 #
+#    RealmName
+#        Name of the realmn. Overrides DB on start
+#
 #    DataDir
 #        Data directory setting.
 #        Important: DataDir needs to be quoted, as it is a string which may contain space characters.
@@ -63,6 +66,7 @@ ConfVersion=2021021901
 ###################################################################################################################
 
 RealmID = 1
+RealmName = "Mangos"
 DataDir = "."
 LogsDir = ""
 LoginDatabaseInfo     = "127.0.0.1;3306;mangos;mangos;classicrealmd"
